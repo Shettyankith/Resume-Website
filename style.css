@@ -1,0 +1,110 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 2em;
+    border-bottom: 2px solid #fff;
+}
+
+header img {
+    border-radius: 50%;
+    border: 5px solid #fff;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+header h1,header p{
+    color: white;
+}
+
+h1, h2, h3 {
+    color: #343a40;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    line-height: 1.8;
+    color: #555;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 12px;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills div {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.skills h3 {
+    color: #343a40;
+    margin-bottom: 10px;
+}
+
+.projects {
+    margin-top: 20px;
+}
+
+.projects h2 {
+    margin-bottom: 15px;
+}
+
+.projects ul {
+    padding-left: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #343a40;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.8em;
+}
+
+@media screen and (max-width: 600px) {
+    header img {
+        max-width: 80%;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    .projects ul {
+        padding-left: 10px;
+    }
+
+    body {
+        font-size: 14px;
+    }
+}
